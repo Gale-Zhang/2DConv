@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('kernel_load_2', hls_2Dconv/core.cpp:39) on array 'kernel' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'kernel'." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.881+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] The II Violation in module 'doImgProc': Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)&#xD;&#xA;   between 'load' operation ('lineBuff_val_0_load', hls_2Dconv/core.cpp:38) on array 'lineBuff.val[0]', hls_2Dconv/core.cpp:12 and 'store' operation (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:729->D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:863->hls_2Dconv/core.cpp:31) of variable 'lineBuff_val_1_load', D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:729->D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:863->hls_2Dconv/core.cpp:31 on array 'lineBuff.val[0]', hls_2Dconv/core.cpp:12." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.792+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'lineBuff.val[2]' (hls_2Dconv/core.cpp:12)." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.485+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'lineBuff.val[0]' (hls_2Dconv/core.cpp:12)." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.247+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'lineBuff.val[1]' (hls_2Dconv/core.cpp:12)." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.233+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'lineBuff.val[2]' (hls_2Dconv/core.cpp:12)." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.215+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'lineBuff.val[0]' (hls_2Dconv/core.cpp:12)." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.205+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'lineBuff.val[1]' (hls_2Dconv/core.cpp:12)." projectName="hls_2Dconv" solutionName="solution1" date="2019-02-25T20:51:26.194+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="core.h" path="E:\ZCU106\StudyDemos\2DConv\hls_2Dconv\core.h"/>
+    <originFiles name="core.cpp" path="E:\ZCU106\StudyDemos\2DConv\hls_2Dconv\core.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test_core.cpp" path="E:\ZCU106\StudyDemos\2DConv\hls_2Dconv\test_core.cpp"/>
+    <originFiles name="testUtils.h" path="E:\ZCU106\StudyDemos\2DConv\hls_2Dconv\testUtils.h"/>
+    <originFiles name="testUtils.cpp" path="E:\ZCU106\StudyDemos\2DConv\hls_2Dconv\testUtils.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
